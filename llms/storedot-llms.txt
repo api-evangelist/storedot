@@ -1,0 +1,41 @@
+# StoreDot
+
+> StoreDot is an Israeli battery technology company (founded 2012, Herzliya, Israel, with a technology campus in Irvine, California) that develops extreme fast charging (XFC) lithium-ion cells using silicon-dominant anode chemistry. Its "100inX" roadmap targets 100 miles of range charged in 5 minutes (2024), 3 minutes (2028) and 2 minutes (2032). StoreDot is a hardware, materials and cell-manufacturing business — it publishes no public developer API, SDK, MCP server or machine-readable API contract.
+
+## APIs
+
+StoreDot publishes no public API. As of 2026-08-02 no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP or A2A surface was found on any StoreDot host, and no api/developer/docs subdomain of store-dot.com resolves in DNS.
+
+## Company
+
+- [StoreDot](https://www.store-dot.com/): Company homepage.
+- [About](https://www.store-dot.com/about): Company, founders, leadership and history.
+- [Technology](https://www.store-dot.com/technology): XFC chemistry, silicon-dominant anode and solid-state research.
+- [Battery](https://www.store-dot.com/battery): Cell products, cell-to-pack design, roadmap and manufacturability.
+- [Charging Calculator](https://www.store-dot.com/calculator): Interactive tool comparing XFC charging times against conventional cells.
+- [Careers](https://www.store-dot.com/careers): Open roles.
+- [Contact](https://www.store-dot.com/contact): Contact form and company addresses.
+
+## Knowledge
+
+- [Blog](https://www.store-dot.com/knowledge/blog): Technical and company posts.
+- [News](https://www.store-dot.com/knowledge/news): Press coverage.
+- [Press Releases](https://www.store-dot.com/knowledge/pr): Official announcements.
+- [Events](https://www.store-dot.com/knowledge/events): Conference and event appearances.
+- [Patents](https://www.store-dot.com/knowledge/patents): Granted and pending IP.
+- [Q&A](https://www.store-dot.com/knowledge/q-and-a): Frequently asked questions about XFC batteries.
+- [Downloads](https://www.store-dot.com/knowledge/downloads): White papers and technical collateral.
+- [Press Kit](https://www.store-dot.com/knowledge/press-kit): Brand and media assets.
+- [Newsletters](https://www.store-dot.com/knowledge/newsletters): Archive of the "Take 5, stay charged" newsletter.
+
+## Legal
+
+- [Terms & Conditions](https://www.store-dot.com/terms-conditions)
+- [Privacy Policy](https://www.store-dot.com/privacy-policy)
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/storedot/): StoreDot in the APIs.io catalog.
+- [LinkedIn](https://www.linkedin.com/company/storedot/)
+- [YouTube](https://www.youtube.com/channel/UC5ChQSDVUxSLokJjP42Wmqg)
+- [X](https://twitter.com/StoreDotLtd)

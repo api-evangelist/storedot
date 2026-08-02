@@ -1,18 +1,51 @@
 aid: storedot
 name: StoreDot
-description: 'StoreDot is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'StoreDot is an Israeli battery technology company founded in 2012 by
+  Doron Myersdorf, Simon Litsyn and Gil Rosenman, headquartered in Herzliya with an
+  advanced technology campus in Irvine, California. It develops extreme fast charging
+  (XFC) lithium-ion cells built on proprietary silicon-dominant anode chemistry and
+  synthesized organic and inorganic compounds optimized with machine-learning models,
+  targeting the range and charging anxiety that gate mainstream electric-vehicle adoption.
+  Its "100inX" product roadmap sets 100 miles of range charged in 5 minutes (100in5,
+  2024), 3 minutes (100in3, 2028) and 2 minutes (100in2, 2032); the company has demonstrated
+  pouch and prismatic XFC cells sustaining more than 1,000 and later 2,000 extreme
+  fast charging cycles while retaining over 80 percent of original capacity, and designs
+  its chemistry to drop into existing Li-ion production lines. Strategic investors
+  and partners include Daimler/Mercedes-Benz, BP, VinFast, Volvo, Polestar, Ola Electric,
+  Samsung Ventures, TDK and manufacturing partner EVE Energy. In 2026 a planned SPAC
+  merger with Andretti Acquisition Corp. II was terminated and the company returned
+  to private fundraising. StoreDot is a hardware, materials and cell-manufacturing
+  business: it publishes no public developer API, SDK, MCP server or machine-readable
+  API contract, and no /.well-known/ discovery surface, llms.txt or developer subdomain
+  resolves on store-dot.com.'
 url: https://raw.githubusercontent.com/api-evangelist/storedot/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/617982ae8d2321c43f5ab142/619f97ccf0932246396bbdb8_logo-txt.svg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Batteries
+- Battery Technology
+- Electric Vehicles
+- Energy Storage
+- Automotive
+- Advanced Materials
+- Clean Energy
+- Manufacturing
+- Nanotechnology
+- Artificial Intelligence
+- Israel
 apis: []
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -20,4 +53,56 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.store-dot.com/
+- type: SecondaryMarket
   url: https://forgeglobal.com/storedot_stock/
+- type: About
+  url: https://www.store-dot.com/about
+- type: Technology
+  url: https://www.store-dot.com/technology
+- type: Products
+  url: https://www.store-dot.com/battery
+- type: Tools
+  url: https://www.store-dot.com/calculator
+- type: Blog
+  url: https://www.store-dot.com/knowledge/blog
+- type: News
+  url: https://www.store-dot.com/knowledge/news
+- type: Press
+  url: https://www.store-dot.com/knowledge/pr
+- type: Events
+  url: https://www.store-dot.com/knowledge/events
+- type: FAQ
+  url: https://www.store-dot.com/knowledge/q-and-a
+- type: Downloads
+  url: https://www.store-dot.com/knowledge/downloads
+- type: PressKit
+  url: https://www.store-dot.com/knowledge/press-kit
+- type: Patents
+  url: https://www.store-dot.com/knowledge/patents
+- type: Newsletter
+  url: https://www.store-dot.com/knowledge/newsletters
+- type: Contact
+  url: https://www.store-dot.com/contact
+- type: Support
+  url: https://www.store-dot.com/contact
+- type: Careers
+  url: https://www.store-dot.com/careers
+- type: TermsOfService
+  url: https://www.store-dot.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.store-dot.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/storedot/
+- type: Twitter
+  url: https://twitter.com/StoreDotLtd
+- type: YouTube
+  url: https://www.youtube.com/channel/UC5ChQSDVUxSLokJjP42Wmqg
+- type: Instagram
+  url: https://www.instagram.com/storedot_xfc/
+- type: Facebook
+  url: https://www.facebook.com/StoredotLtd/
+- type: LLMsTxt
+  url: llms/storedot-llms.txt
+- type: DomainSecurity
+  url: security/storedot-domain-security.yml

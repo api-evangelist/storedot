@@ -1,0 +1,78 @@
+generated: '2026-08-02'
+method: probed
+source: https://www.store-dot.com/
+host: https://www.store-dot.com
+notes: >-
+  StoreDot publishes no /.well-known/ discovery surface. Every RFC 8615 path probed
+  on both store-dot.com and www.store-dot.com returns 404 (the Webflow-hosted site
+  answers with its own HTML 404 page, so the bodies are not documents). There is no
+  llms.txt, no OpenAPI/Swagger at any host root, no GraphQL endpoint, no MCP server
+  and no A2A agent card. robots.txt returns 200 but contains only a Sitemap
+  directive - no AI/answer-engine crawler rules either way. No API, developer, docs,
+  app, portal, status, trust or security subdomain resolves in DNS. This is a
+  hardware/materials company with no machine-readable API surface; the finding is a
+  valid negative, not a gap to be filled.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /openapi.yaml
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /robots.txt
+  status: 200
+  content_type: text/plain
+  note: 'contains only a single directive - Sitemap: https://www.store-dot.com/sitemap.xml'
+- path: /sitemap.xml
+  status: 200
+  content_type: application/xml
+  note: 250+ URLs, all marketing/knowledge-base pages and newsletter issues
+other_hosts:
+- host: api.store-dot.com
+  resolves: false
+- host: developer.store-dot.com
+  resolves: false
+- host: docs.store-dot.com
+  resolves: false
+- host: app.store-dot.com
+  resolves: false
+- host: portal.store-dot.com
+  resolves: false
+- host: status.store-dot.com
+  resolves: false
+- host: trust.store-dot.com
+  resolves: false
+- host: security.store-dot.com
+  resolves: false
+- host: data.store-dot.com
+  resolves: false
+github:
+  org: https://github.com/storedot
+  status: 200
+  public_repos: 0
+  note: >-
+    An empty GitHub organization named "storedot" exists (created 2020-04-21) with no
+    name, description, blog URL or public repositories. First-party ownership cannot
+    be verified from any public signal, so no GitHubOrganization pointer was wired.
+x-evidence:
+  fetched: '2026-08-02'
+  method: curl GET with redirects against both apex and www hosts, dig for subdomain
+    resolution, GitHub REST API for the org check
