@@ -19,6 +19,17 @@ description: 'StoreDot is an Israeli battery technology company founded in 2012 
   API contract, and no /.well-known/ discovery surface, llms.txt or developer subdomain
   resolves on store-dot.com.'
 url: https://raw.githubusercontent.com/api-evangelist/storedot/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/617982ae8d2321c43f5ab142/619f97ccf0932246396bbdb8_logo-txt.svg
 x-type: company
 x-source: harvest:secondary-market
