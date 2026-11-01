@@ -64,22 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-StoreDot is an Israeli battery technology company founded in 2012 by Doron Myersdorf, Simon Litsyn and Gil Rosenman, headquartered in Herzliya with an advanced technology campus in Irvine, California. It develops extreme fast charging (XFC) lithium-ion cells built on proprietary silicon-dominant anode chemistry, targeting the range and charging anxiety that gate mainstream electric-vehicle adoption. Its "100inX" roadmap sets 100 miles of range charged in 5 minutes (2024), 3 minutes (2028) and 2 minutes (2032). Strategic investors and partners include Daimler/Mercedes-Benz, BP, VinFast, Volvo, Polestar, Ola Electric, Samsung Ventures, TDK and manufacturing partner EVE Energy.
+StoreDot is an Israeli battery technology company founded in 2012 by Doron Myersdorf, Simon Litsyn and Gil Rosenman, headquartered in Herzliya with an advanced technology campus in Irvine, California. It develops extreme fast charging (XFC) lithium-ion cells built on proprietary silicon-dominant anode chemistry and synthesized organic and inorganic compounds optimized with machine-learning models, targeting the range and charging anxiety that gate mainstream electric-vehicle adoption. Its "100inX" product roadmap sets 100 miles of range charged in 5 minutes (100in5, 2024), 3 minutes (100in3, 2028) and 2 minutes (100in2, 2032); the company has demonstrated pouch and prismatic XFC cells sustaining more than 1,000 and later 2,000 extreme fast charging cycles while retaining over 80 percent of original capacity, and designs its chemistry to drop into existing Li-ion production lines. Strategic investors and partners include Daimler/Mercedes-Benz, BP, VinFast, Volvo, Polestar, Ola Electric, Samsung Ventures, TDK and manufacturing partner EVE Energy. In 2026 a planned SPAC merger with Andretti Acquisition Corp. II was terminated and the company returned to private fundraising. StoreDot is a hardware, materials and cell-manufacturing business: it publishes no public developer API, SDK, MCP server or machine-readable API contract, and no /.well-known/ discovery surface, llms.txt or developer subdomain resolves on store-dot.com.
 
-- Website: https://www.store-dot.com/
-- Technology: https://www.store-dot.com/technology
-- Battery: https://www.store-dot.com/battery
-- Knowledge base: https://www.store-dot.com/knowledge/blog
-- Secondary market listing: https://forgeglobal.com/storedot_stock/
+**Areas:** Company · Batteries · Battery Technology · Electric Vehicles · Energy Storage · Automotive · Advanced Materials · Clean Energy · Manufacturing · Nanotechnology · Artificial Intelligence · Israel
 
-## API surface
+## StoreDot on APIs.io
 
-StoreDot is a hardware, materials and cell-manufacturing business. As of 2026-08-02 it publishes **no public developer API** — no OpenAPI/Swagger, GraphQL, AsyncAPI, webhook catalog, MCP server or A2A agent card was found on any StoreDot host, no `/.well-known/` path returns a document, there is no `llms.txt`, and no `api`/`developer`/`docs`/`app`/`portal`/`status`/`trust` subdomain of `store-dot.com` resolves in DNS. See `well-known/storedot-well-known.yml` for the full probe record.
+Everything profiled for StoreDot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/storedot/](https://apis.io/providers/storedot/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Path | Type | Method |
-|---|---|---|
-| `llms/storedot-llms.txt` | LLMsTxt | generated |
-| `security/storedot-domain-security.yml` | DomainSecurity | probed |
-| `well-known/storedot-well-known.yml` | (probe record — no discovery surface published) | probed |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Storedot Domain Security](https://apis.io/security/storedot/storedot-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.store-dot.com/)
+- [Support](https://www.store-dot.com/contact)
+- [Blog](https://www.store-dot.com/knowledge/blog)
+- [Terms of service](https://www.store-dot.com/terms-conditions)
+- [Privacy policy](https://www.store-dot.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/storedot/](https://apis.io/providers/storedot/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for StoreDot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/storedot/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
